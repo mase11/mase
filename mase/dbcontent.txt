@@ -1,0 +1,25 @@
+*** User table ***
+create table users(id int(6) unsigned auto_increment primary key, name varchar(50) NOT NULL,gender char(10) NOT NULL, email varchar(200) NOT NULL);
+
+
+
+create table game(id int(6) unsigned auto_increment primary key, username varchar(50) NOT NULL, game_title varchar(100), wins int(10), level varchar(50), game_result varchar(10), loses int(10), no_connect int(10));
+
+
+Games
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('miltin','chess',100,'intermediate', 'won', 10, 20);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('miltin','table_tennis',100,'beginer', 'won' 100, 10);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('miltinmike','chess',1100,'expert', 'lose', 110, 20);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('miltinmike','table_tennis',1100,'expert', 'lose' 110, 190);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('miltinmike','scrable',2020,'expert', 'draw', 10, 2330);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('abey','chess',165,'intermediate', 'won', 112, 298);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('abey','table_tennis',1230,'expert','lose', 112, 193);
+INSERT INTO game(username, game_title, wins, level, game_result, loses, no_connect)
+VALUES ('abey','scrable',2020,'expert','draw', 10, 2330);

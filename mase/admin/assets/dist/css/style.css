@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Pacifico";
+    src: url("../../../../assets/fonts/Pacifico-Regular.ttf");
+  }
+.brand-link{
+    font-family: "Pacifico";
+    padding-left: 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+ <script src="https://kit.fontawesome.com/bd18d97082.js" crossorigin="anonymous"></script>
+
+ <link rel="stylesheet" href="./assets/css/style.css" />
+ <title>Contact</title>
+</head>
+
+<body>
+ <header>
+  <div class="navbar">
+   <ul>
+      <li><a href="index.html" class="logo__name">SportConnect</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About </a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+   <div>
+ </header>
+ <div class="form___wrapper" style="margin-bottom: 2em; height: auto;">
+    <div class="container2">
+      <form id="contactForm">
+        <h4>Contact Us</h4>
+        <section>
+          <div class="input__field">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" plcaeholder="Your  Name...">
+          </div>
+          <div class="input__field">
+            <label for="lasttname">Last Name</ label>
+            <input type="text" id="lastname" name="lastname" plcaeholder="Your last Name...">
+          </div>
+          <div class="input__field">
+            <label for="email">Email </label>
+            <input id="email" type="email" placeholder="Enter Email" name="Email" require>
+          </div>
+          <div class="input__field">
+            <label for="country">Country</label>
+              <select id="country" name="country">
+               <option value="estonia">Estonia</option>
+               <option value="finland">Finland</option>
+               <option value="russia">Russia</option>
+              </select>
+          </div>
+          <div class="input__field">
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="write something"></textarea>
+          </div>
+          <div class="input__field">
+            <input type="submit" value="Submit">
+          </div>
+        </section>
+      </form>
+    </div>
+ </div>
+
+
+ <footer id="main-footer">
+  <p>Sport Connect &copy; 2020, All Right Reserved</p>
+ </footer>
+<script src="https://www.gstatic.com/firebasejs/7.13.2/firebase-app.js"></script>
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>
